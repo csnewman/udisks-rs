@@ -1,0 +1,11 @@
+[package]
+name = "udisks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zbus = "2.1.1"
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+async-std = { version = "1.10.0", features = ["attributes" ] }
