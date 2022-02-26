@@ -2,6 +2,9 @@
 name = "udisks"
 version = "0.1.0"
 edition = "2021"
+authors = ["Chandler Newman <chandler2newman@hotmail.co.uk>"]
+description = "UDisks dbus client for rust"
+license = "MIT"
 
 [dependencies]
 zbus = "2.1.1"
